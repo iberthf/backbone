@@ -1,0 +1,113 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+a:link {
+	text-decoration: none;
+	color: #1e51db;
+}
+a:visited {
+	text-decoration: none;
+	color: #1e51db;
+}
+a:hover {
+	text-decoration: underline;
+	color: #298cef
+}
+td#copyright {
+	font-family: verdana, helvetica, sans serif;
+	text-align: right;
+	font-size: xx-small;
+	color: #999;
+}
+td#copyright img {
+	border-bottom: 1px solid #999;
+	height: 20px;
+	width: 100%;
+}
+select {
+	font-family: arial, helvetica, sans serif;
+	font-size: 100%;
+	width: 200px;
+}
+td.ddns-checkbox {
+	font-family: verdana, helvetica, sans serif;
+	font-size: 70%;
+	text-align: right;
+	padding: 0.7ex 0.5em;
+	width: 10%;
+}
+
+td.ddns-host {
+	font-family: arial, helvetica, sans serif;
+	font-size: 75%;
+	text-align: left;
+	padding: 0.3ex 0.5em;
+	width: 50%;
+}
+
+td.ddns-interface {
+	font-family: arial, helvetica, sans serif;
+	font-size: 75%;
+	text-align: left;
+	padding: 0.3ex 0.5em;
+	width: 40%;
+}
+
+td.ddns-clear {
+	font-family: arial, helvetica, sans serif;
+	font-size: 75%;
+	text-align: left;
+	padding: 0.3ex 0.5em;
+	width: 80px;
+}
+td.ipfilter-prompt {
+	font-family: verdana, helvetica, sans serif;
+	font-weight: bold;
+	font-size: 70%;
+	text-align: right;
+	padding: 0.7ex 0.5em;
+	width: 180px;
+}
+td.mac-filter-checkbox {
+    font-family: arial, helvetica, sans serif;
+    font-size: 75%;
+    text-align: left;
+    padding: 0.3ex 0.5em;
+}
+td.mac-filter-addr {
+	font-family: arial, helvetica, sans serif;
+	font-size: 75%;
+	text-align: left;
+	padding: 0.3ex 0.5em;
+	width: 45%;
+}
+.rounded{
+	border-radius: 5px;
+}
+.bordered{
+	border: 2px solid #355669;
+}
+
+#header {
+    width: 750px;
+}
+
+#header label {
+	font-family: verdana, helvetica, sans serif;
+	font-size: 12px;
+}
+
+.footer {
+    font-family: verdana, helvetica, sans serif;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.ui-button-green{
+	border:medium none;
+	background: url("/images/calamp/green_btn_right.gif") no-repeat scroll right top transparent;
+	border-radius: 5px;
+	font-family: 	"MS Shell Dlg";
+	font-size: 13.3333px;
+	color:#FFFFFF;
+}

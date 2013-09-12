@@ -1,0 +1,17 @@
+{
+    "name": "deviceOutlook",
+    "description": "Device Outlook UI",
+    "version": "0.0.1",
+    "homepage": "",
+    "keywords": [
+        "deviceoutlook"
+    ],
+    "repository": {
+        "type": "svn",
+        "url": "svn://10.0.0.99/branch/DO_7"
+    },
+    "main": "src/main.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "private": false
+}

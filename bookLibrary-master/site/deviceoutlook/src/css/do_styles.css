@@ -1,0 +1,2833 @@
+/*  
+created by after10studios
+*/
+
+/* --------------------------------- RESET --------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+:focus {outline:0;}
+body {
+	line-height:1;
+	color:black;
+	/*background:#f5f5f5 url(../../images/calamp/bodybg.jpg) 50% 60px no-repeat;*/
+	word-wrap:break-word;
+	
+	height: 100%; overflow: hidden !important;
+}
+ol, ul {list-style:none;}
+table {border-collapse:collapse; border-spacing:0;}
+caption, th, td {text-align:left; font-weight:normal;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+
+/* --------------------------------- CONTENT --------------------------------- */
+
+body {font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#000;}
+a {text-decoration:none;}
+/* a:hover {text-decoration:underline;} */
+
+.header_wrap a:hover, .main_menu_wrap a:hover {text-decoration:underline;}
+#account_options a:hover {text-decoration:none;}
+
+h1,h2,h3,h4,h5,h6 {margin:0 0 5px; line-height:135%; font-weight:bold;}
+h1 {font-size:20px; font-weight:normal;}
+h2 {font-size:18px; font-weight:normal;}
+h3 {font-size:16px; font-weight:bold;}
+h4 {font-size:14px; font-weight:bold;}
+h5 {font-size:12px; font-weight:bold;}
+h6 {font-size:11px; font-weight:bold;}
+p {margin:0 0 10px;}
+strong {font-weight:bold;}
+.left{
+	float:left;
+	width:290px;
+}
+.left.pager {
+	width:180px;	
+}
+.right {
+	float:right;
+}
+
+/* --------------------------------- SHADOW-BOXES --------------------------------- */
+
+.d-shadow-wrap {
+	position:relative;
+	width:100%;
+	overflow:hidden; 
+}
+
+.d-sh-cn {
+	position:absolute;
+	background:url(../../images/calamp/shadow.png) no-repeat;
+	left:-10px;
+	z-index:-1;
+	}
+
+.d-sh-tl, .d-sh-tr {
+	height: 100%;
+    padding: 0 0 10px 5px;
+	top:-10px;
+	}
+
+.d-sh-tl, .d-sh-bl {
+	width:100%;
+	}
+
+.d-sh-tr, .d-sh-br {
+	width:10px;
+	margin-left:100%;
+	}
+
+.d-sh-bl, .d-sh-br {
+	height:10px;
+	}
+
+.d-sh-bl {
+	left:-10px;
+	clip:rect(auto auto auto 10px);
+	}
+
+.d-sh-br {
+	left:-10px;
+	} 
+
+
+/* --------------------------------- LAYOUT --------------------------------- */
+
+.main, .header, .main_menu, .footer {
+	width:auto;
+	margin:0 auto;
+}
+
+/* --------------------------------- HEADER PART --------------------------------- */
+.header_wrap {
+	height:auto;
+	/*background:#fff;*/
+	min-width:auto;
+	/*border: red solid 2px;*/
+	background-color:#304f5f;
+	/*background:url(../../images/calamp/main_menu_bg.png) repeat-x;*/
+}
+
+.custom_header_wrap {
+	height:auto;
+}
+
+.header {
+	height:auto;
+	
+}
+
+.container_do {
+	float: left;
+	width: 1000px;
+	
+}
+
+.custom_header {
+	height:auto;
+}
+
+.logo {
+	margin:9px 0px 0px 0px;
+	float:left;
+	width:180px;
+	/*height:44px;*/
+	text-align: right;
+}
+
+.custom_logo {
+	width: 200px;
+	height: 67px;
+}
+
+.custom_main_logo {
+	max-height: 50px;
+	max-width: 200px;
+}
+
+.custom_logo_div {
+	height: 50px;
+	width: 200px;
+}
+
+.custom_powered_logo {
+	height: 17px;
+	width: 150px;
+	padding-top: 5px;
+}
+
+.topmenu {
+	float:left;
+	margin-right:10px;
+}
+
+.topmenu li {
+	display:inline;
+	float: left;
+}
+
+.topmenu li a {
+	color:#ffffff;
+	font-size:11px;
+}
+
+.topmenu li span {
+	color:#ffffff;
+	font-size:11px;
+}
+
+.topmenu li span.separate {
+	padding:0px 18px;
+	color:#adacac;
+}
+					
+/* --------------------------------- _ PART --------------------------------- */
+.main_wrap {
+	
+}
+
+.main_menu_wrap {
+	/*background:url(../../images/calamp/main_menu_bg.png) repeat-x;*/
+	height:auto;
+	/*min-width:fit-content;*/
+	
+}
+
+.main_menu {
+	height:39px;
+	/*min-width:fit-content;*/
+}
+
+.main_menu li {
+	display:block;
+	height:39px;
+	float:left;
+	position:relative;
+}
+
+.main_menu li .l, .main_menu li .r {
+	background:none;
+	float:left;
+	height:39px;
+	width:5px;
+}
+
+.main_menu li a {
+	padding:0px 14px;
+	/*display:block;*/
+	height:39px;
+	float:left;
+	line-height:39px;
+	font-size:14px;
+	font-family:Myriad Pro;
+	color:#fff;
+}
+
+.main_menu li ul {
+	background-color:#304f5f;
+	/*position:absolute;*/
+	left:0px;
+	top:38px;
+}
+
+.main_menu li.active ul {
+	background-color:#0072b6;
+}
+
+.main_menu li ul li {
+	float:none;
+}
+
+.main_menu li ul li a {
+	white-space:nowrap;
+}
+
+.main_menu li.active ul li a:hover {
+	text-decoration:underline;
+}
+
+.main_menu li.active {}
+
+.main_menu li.active .l {
+	float:left;
+	height:39px;
+	width:10px;
+	margin-left:-5px;
+	/*background:url(../../images/calamp/mm_li_left.png) 0% 0% no-repeat;*/
+}
+
+.main_menu li.active .r {
+	float:left;
+	height:39px;
+	width:5px;
+	/*background:url(../../images/calamp/mm_li_right.png) 0% 0% no-repeat;*/
+}
+
+.main_menu li.active a {
+	background:#0072b6;
+}
+
+.main_menu li.active a:hover {
+	text-decoration:none;
+}	
+
+.main {}
+
+.sidebar {
+	float:left;
+	width:272px;
+}
+
+.sidebar h2 {
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	margin:8px 0 20px 3px;
+}
+
+.sb_menu {
+	margin:0px 0px 10px 3px;
+}
+
+.sb_menu li{
+	margin:0px 0px 1px 0px;
+	background:url(../../images/calamp/sb_menu_li.png) no-repeat;
+	height:40px;
+	padding:0px 0px 0px 55px;
+	cursor:pointer;
+}
+
+.sb_menu li a, .sb_menu li span{
+	font-size:14px;
+	color:#fff;
+	font-family:Myriad Pro;
+	line-height:40px;
+}
+
+.sb_menu li.active {
+	background:url(../../images/calamp/sb_menu_li_act.png) no-repeat;
+}
+
+.sb_menu li.active span {
+	font-size:14px;
+	color:#fff;
+	font-family:Myriad Pro;
+	line-height:40px;
+}
+
+.sidebar .box {
+	width:260px;
+}
+
+.sidebar .box p {
+	color:#6e6e6e;
+	margin:0 0 14px;
+	line-height:15px;
+}
+
+.content {
+	float:right;
+	width:688px;
+}
+
+.titlebox {
+	position:relative;
+	top:5px;
+	left:-1px;
+	z-index:1;
+}
+
+.titlebox .tl {
+	height:36px;
+	width:10px;
+	float:left;
+	background:url(../../images/calamp/titlebox_left.png) no-repeat;
+}
+
+.titlebox .tm {
+	height:36px;
+	float:left;
+	background:url(../../images/calamp/titlebox_midd.png) repeat-x;
+}
+
+.titlebox .tm span {
+	color:#0671b7;
+	font-size:14px;
+	line-height:35px;
+	font-family:Myriad Pro;
+	padding:0px 13px;
+}
+
+.titlebox .tr {
+	height:36px;
+	width:10px;
+	float:left;
+	background:url(../../images/calamp/titlebox_right.png) no-repeat;
+}
+
+.titlebox .last {
+	float:right;
+	top:0px;
+	margin:0px 0px 0px 0px;
+	left:1px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+
+.titlebox .last .tl {
+	background-image:url(../../images/calamp/titlebox_left_last.png);
+	background-repeat:no-repeat;
+	height:34px;
+	width:10px;
+}
+
+.titlebox .last .tm {
+	background-image:url(../../images/calamp/titlebox_midd_last.png);
+	background-repeat:repeat-x;
+	height:34px;
+}
+
+.titlebox .last .tm a {
+	line-height:34px;
+	font-family:Myriad Pro;
+	font-size:14px;
+	color:white;
+}
+
+.titlebox .last .tm a:hover {
+	text-decoration:underline;
+}
+
+.titlebox .last .tr {
+	background-image:url(../../images/calamp/titlebox_right_last.png);
+	background-repeat:no-repeat;
+	height:36px;
+	width:10px;					
+}
+
+.subTabs{
+	float: right;
+	margin-right:-13px;
+}
+
+.box {
+	position:relative;
+	padding-bottom:10px;
+}
+
+.boxcont {
+	padding:21px 22px 11px 22px;
+}
+
+.content .boxcont {
+	min-height:400px;
+	height:auto;
+	overflow: hidden !important;
+}
+
+.inp_txt_wr {
+	background:url(../../images/calamp/inputtext.gif) no-repeat scroll left top;
+	float:left;
+	margin:0px 5px 0px 0px;
+	height:30px;
+	overflow:hidden;
+	padding:0px 0px 0px 4px;
+}
+
+.inp_txt_wr .inp_txt_inner {
+	background:url(../../images/calamp/inputtext.gif) no-repeat scroll right top;
+	margin:0 0 0 4px;
+	padding:2px 12px 2px 0;
+}
+
+.wr .non-edit{
+    color:#777777;
+    font-size:12px;
+    background:none;
+    border:none;
+    padding:0px;
+    line-height:30px;
+    font-weight:bold;
+}
+
+.inp_txt_wr .inp_txt_inner input {
+	color:#544E4F;
+	font-size:12px;
+	background:none;
+	border:none;
+	/*vertical-align:middle;*/
+	padding:0px;
+	height:26px;
+	/*line-height:26px;*/
+	/*padding:5px 0px 0px 0px;*/
+}
+textarea{									
+	color:#544E4F;
+    font-size:12px;
+    background:none;
+    border:none;
+    resize: none;
+}
+/* --------------------------------- FOOTER --------------------------------- */
+.footer_wrap {}
+
+.footer {
+	height:55px;
+	padding:25px 0px 0px 0px;
+}
+
+.footer p {
+	color:#6e6e6e;
+	font-size:11px;
+	margin:10px 0px 0px 0px;
+}
+
+.footer .l {
+	float:left;
+	padding-left:4px;
+}
+
+.footer_links {}
+
+.footer_links li {
+	display:inline;
+}
+
+.footer a{
+	font-size:11px;
+	color:#0072b6;
+	font-weight:bold;
+}
+
+.footer_links li span {
+	color:#6e6e6e;
+	padding:0px 6px;
+	font-size:11px;
+}
+
+.footer .r {
+	float:right;
+	padding-right:4px;
+}
+
+/* --------------------------------- BUTTONS --------------------------------- */
+.greenbtn {
+	border:none;
+	background:none;
+	padding:0px;
+	cursor:pointer;
+	overflow:visible;
+	outline-width:medium;
+	margin:0px;
+}
+
+.greenbtn span {
+	background:url(../../images/calamp/green_btn_left.gif) no-repeat scroll left top;
+	display:block;
+	float:left;
+	padding:0 0 0 4px;
+	height:36px;
+	line-height:36px;
+}
+
+.greenbtn span span {
+	background:url(../../images/calamp/green_btn_right.gif) no-repeat scroll right top;
+	line-height:36px;
+	color:#fff;
+	font-size:11px;
+	padding:1px 30px 0 26px;
+	float:left;
+	height:36px;
+	line-height:36px;
+}
+
+.stdbutt {
+	background:none repeat scroll 0 0 transparent;
+	border:medium none;
+	cursor:pointer;
+	margin-top:7px;
+	outline-width:medium;
+	overflow:visible;
+	padding:0;
+	text-transform:none;
+	white-space:nowrap;
+}
+.stdbutt span {
+	display:block;
+	float:left;
+	padding:0 0 0 4px;
+	height:36px;
+	line-height:36px;
+	text-transform:none;
+	white-space:nowrap;
+}
+.stdbutt span span {
+	line-height:36px;
+	color:#fff;
+	font-size:11px;
+	padding:1px 30px 0 26px;
+	float:left;
+	height:36px;
+	line-height:36px;
+	text-transform:none;
+	white-space:nowrap;
+	display:block;
+}
+.stdbutt .btn_lt_brown{
+	background: url("../../images/calamp/rt_arrow_box_lt.png") no-repeat scroll 0 0 transparent;
+    color: white;
+    cursor: pointer;
+    height: 36px;
+}
+.stdbutt .btn_lt_brown_small {
+	background: url("../../images/calamp/rt_arrow_box_lt_small.png") no-repeat scroll 0 0 transparent;
+    color: white;
+    cursor: pointer;
+    height: 28px;
+}
+.stdbutt .btn_lt_brown_arrow{
+	background: url("../../images/calamp/sel_an_lt.png") no-repeat scroll 0 0 transparent;
+    height: 36px;
+    padding-left:25px;
+}
+.stdbutt .btn_rt_brown{
+	background-image: url("../../images/calamp/sel_an_rt.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: none;
+    margin:0;
+    padding: 0 30px 0 26px;
+}
+.stdbutt .btn_rt_brown.small{
+    background-image: url("../../images/calamp/sel_an_rt_small.png");
+    line-height: 28px;
+    height: 28px;
+    padding: 0 20px 0 15px;
+}
+.stdbutt.b_green{
+	float:right;
+}
+
+.b_green span, .stdbutt span {
+	background:url(../../images/calamp/green_btn_left.gif) no-repeat scroll left top;
+}
+
+.b_green span span, .stdbutt span span {
+	background:url(../../images/calamp/green_btn_right.gif) no-repeat scroll right top;
+}
+
+.b_green:hover{
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+.b_fiol span {
+	background:url(../../images/calamp/fiol_butt_left.gif) no-repeat scroll left top;
+}
+
+.b_fiol span span {
+	background:url(../../images/calamp/fiol_butt_right.gif) no-repeat scroll right top;
+}
+
+.b_fixed_w span span {
+	min-width:130px;
+}
+
+.redbtn span {
+	background:url(../../images/calamp/red_btn_left.png) no-repeat scroll left top;
+}
+
+.redbtn span span {
+	background:url(../../images/calamp/red_btn_right.png) no-repeat scroll right top;
+}
+
+.redbtn:hover{
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+.cont_box_foot {
+	border-top:1px solid #CCCCCC;
+	margin:42px 8px 0 0 !important;
+	/*padding:14px 0 0;*/
+	width:100%;
+	float:left;
+}
+.cont_box_foot_device {
+	border-top:1px solid #CCCCCC;
+	margin:42px 8px 0 0 !important;
+	width:99%;
+	float:left;
+}
+
+#page_select, #enh_page_select {
+	background:url(../../images/calamp/page_select.png) no-repeat;
+	display:block;
+	float:left;
+	margin-top:1px;
+	width:42px;
+	height:18px;
+}
+
+#page_select b, #enh_page_select b {
+	display:block;
+	color:#0072b6;
+	width:24px;
+	text-align:center;
+	margin:2px 0px 0px 0px;
+	font-weight:normal;
+}
+
+#page_select_button, #enh_page_select_button {
+	background:url(../../images/calamp/page_select_button.png) no-repeat;
+	display:block;
+	float:right;
+	width:17px;
+	height:18px;
+	padding:0px;
+}
+
+#page_select ul li, #enh_page_select ul li {
+	height:16px;
+	line-height:16px;
+	width: 40px;
+}
+
+#page_select ul li a, #enh_page_select ul li a {
+	color:#0072b6;
+	font-size:11px;
+	line-height:12px;
+	width:100%;
+	display:block;
+	height:12px;
+	text-align: left;
+	margin:2px 0px 0px 0px;
+	padding:0px;
+}
+
+#page_select ul li a:hover, #enh_page_select ul li a:hover {
+	text-decoration:none;
+}
+
+#page_select .options.page_select, #enh_page_select .options.page_select {
+	bottom:18px;
+	top:auto;
+	/*width:40px;*/
+	background-color:white;
+	border-color:#64a7d5;
+	border-style:solid;
+	border-width:1px;
+}
+
+.options.page_select ul{
+	z-index: 110;
+	min-width:40px;
+	max-height:150px;
+	width:auto;
+}
+
+.options.page_select ul.scroller{
+	min-width:0;
+    width:29px;
+}
+
+.jScrollPaneContainer.jScrollPaneScrollable .scroller{
+	width:100%;
+}
+
+#page_select .option.default, #page_select .option.hover, #enh_page_select .option.default, #enh_page_select .option.hover {
+	background-color:#c8dcf4;
+}
+
+.close{
+	background-image:url("../../images/calamp/big_x.png");
+	background-position:0 0;
+	background-repeat:no-repeat;
+	display:block;
+	float:right;
+	height:19px;
+	padding:0;
+	width:19px;
+	cursor:pointer;
+}
+.radio_file_type_label{
+	color:#5c5c5c;
+	text-align:center;
+	vertical-align:top;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+/* --------------------------------- TOOLS --------------------------------- */
+
+.nobr {white-space:nowrap !important;} 
+.wrap {white-space:normal !important;}
+.a-left {text-align:left !important;}
+.a-center {text-align:center !important;}
+.a-right {text-align:right !important;}
+.v-top {vertical-align:top;}
+.v-middle {vertical-align:middle;}
+.f-left {float:left !important;}
+.f-right {float:right !important;}
+.f-none {float:none !important;}
+.no-display {display:none;}
+.no-margin {margin:0 !important;}
+.no-padding {padding:0 !important;}
+.no-bg {background:none !important;}
+
+.scroller_sb {height:250px;}
+
+.tbl_n_wrap_dialog {
+    margin-left: 10px;
+    margin-right: 14px;
+}
+
+/*.tbl_n_wrap {height:455px;}	*/
+.tbl_n_wrap_user {height:495px;}
+.tbl_n_wrap_db {height:129px;}
+.tbl_n_wrap_min {height:160px;}
+.tbl_n_wrap_history {height:325px;}
+.jScrollPaneTrack {								
+	float:right;
+	width:9px;
+	background:url(../../images/calamp/scrbg.gif) 3px 0px repeat-y;
+	}
+.jScrollPaneDrag {background:url(../../images/calamp/scroller.gif) no-repeat 0 50%; height:39px !important;}						
+
+/* --------------------------------- CLEARS --------------------------------- */
+
+.footer:after, .main:after, .titlebox:after {display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden;}
+
+
+/* global checkbox/radio button, select element styles */
+
+.radio {
+	background: url(../../images/calamp/radio.png) no-repeat;
+	background-position:-3px -5px;
+	display:inline-block;
+	width:13px;
+	height:13px;
+	cursor:pointer;
+}
+
+.checkbox {
+	background: url(../../images/calamp/checkbox.png) no-repeat;
+	background-position:-3px -5px;
+	display:inline-block;
+	width:15px;
+	height:15px;
+	cursor:pointer;
+}
+
+.radio.down, .checkbox.down {
+	background-position:-3px -30px;
+}
+
+.radio.checked, .checkbox.checked {
+	background-position:-3px -55px;
+}
+
+.radio.checked.down, .checkbox.checked.down {
+	background-position:-3px -80px;
+}
+
+.select.large{
+	width:203px;
+}
+
+.select.large b{
+	width:170px;
+}
+
+.select.large ul{
+	max-height:100px;
+}
+
+.select {
+	position:relative;
+	background: url(../../images/calamp/select_main.png) no-repeat;
+	height:30px;
+	float:left;
+	cursor:pointer;
+}
+
+#accounts_filter{
+	background: none;
+	height:12px;
+	width: 95px;
+}
+
+#accounts_filter .arrow {
+    border-color: #0272B7 transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 3px 3px 0;
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    left: 4px;
+    line-height: 0;
+    padding-top: 1px;
+    position: relative;
+    top: -1px;
+    width: 0;
+}
+
+.select .drop_button{
+   height:0px;
+   width:0px;
+}
+
+#edit_properties b.fixed_country_state{
+	width:107px;
+} 
+
+.select b.fixed_country_state{
+	width:131px;
+}
+
+.select b, .select.large b, .select b.fixed_country_state{
+	float:left;
+	display:block;
+	color:#544E4F;
+	font-size:11px;
+	line-height:14px;
+	font-weight:normal;
+	margin:7px 4px 0px 8px;
+	overflow:hidden;
+    height:16px;
+    text-indent:1px;
+}
+
+#secret_select b{
+	width:186px;
+}
+
+.select span.button {
+	background: url(../../images/calamp/select_btn.png) no-repeat #FFFFFF;
+	background-position:right;
+	display:block;
+	float:right;
+	width:21px;
+	height:30px;
+}
+
+.select .options {
+	display:none;
+	position:absolute;
+	left:0px;
+	top:30px;
+	background-color:white;
+	border:1px solid #CCCCCC;
+}
+
+#accounts_filter .options{
+	top:15px;
+}
+
+.up.select .options {
+	top:auto;
+	bottom:29px;
+}	
+
+.select .options[scroller='true'] ul.scroller {
+	height:145px;
+}
+
+.options.time .hour{
+	float:left;
+}
+.options.time .minute{
+	float:left
+}
+.select.pager{
+   background:url("../../images/calamp/page_select.png") no-repeat scroll 0 0 transparent;
+   display:block;
+   float:left;
+   height:18px;
+   margin-top:1px;
+   width:42px;
+}
+.select.pager b.text{
+   color:#0072B6;
+   display:block;
+   font-weight:normal;
+   margin:2px 0 0;
+   text-align:center;
+   width:24px;
+}
+.select.pager span.button{
+   background:url("../../images/calamp/page_select_button.png") no-repeat scroll 0 0 transparent;
+   display:block;
+   float:right;
+   height:18px;
+   padding:0;
+   width:17px;
+}
+.select.pager ul.options{
+   background-color:white;
+   border:1px solid #64A7D5;
+   bottom:18px;
+   top:auto;
+}
+.select.pager ul li a:hover {
+   text-decoration:none;
+}
+
+.select.pager ul{
+   z-index: 110;
+   min-width:40px;
+   max-height:150px;
+   width:auto;
+}
+.select.pager li{
+   height:16px;
+   line-height:16px;
+   width: 40px;
+}
+.select.pager li a{
+	color:#0072B6;
+   display:block;
+   font-size:11px;
+   height:12px;
+   line-height:12px;
+   margin:2px 0 0;
+   padding:0;
+   text-align:left;
+   width:100%;
+}
+#devices_pager #dev_pager_button, #devices_pager #per_page_select2_button {
+	background:url(../../images/calamp/page_select_button.png) no-repeat;
+	display:block;
+	float:right;
+	width:17px;
+	height:18px;
+	padding:0px;
+	margin:0px;
+}
+
+.select .option.default, .select .option.hover, .multi_select .option.selected {
+	background-color:#E6E6E6;
+}
+
+.select ul li, .multi_select ul li {
+	color:#8f8f8f;
+	font-size:11px;
+	width:100%;
+	cursor:pointer;
+	z-index:120;
+	display:inline-block;
+	white-space:nowrap;
+}
+
+.select ul div, .multi_select ul div {
+	width:100%;
+	display:inline-block;
+	white-space:nowrap;
+}
+
+
+#devices_pager  .select ul li {
+	width: 40px;
+}
+
+#devices_pager .options {
+	width:40px;
+}
+
+.select ul li a, .multi_select ul li a{
+	display:block;
+	float:left;
+	color:#544E4F;
+	font-size:12px;
+	line-height:14px;
+	margin:2px 0px;
+	text-indent:5px;
+}
+
+.multi_select {
+	display:block;
+	border:1px solid #CCCCCC;
+	margin:5px;
+	overflow:visible;
+}
+
+.multi_select .options {
+	position:absolute;
+	z-index:50;
+}
+
+.small.select {
+	background-image:url("../../images/calamp/select_short_main.png");
+	height:22px;
+	width:75px;
+	font-weight:normal;
+	line-height:12px;
+}
+/*
+.small.time.select, 
+.small.date_pick.select, 
+.small.interval.select,
+.small.day.select {
+	background-image:url("../../images/calamp/select_short_main.png");
+	height:22px;
+	width:75px;
+	font-weight:normal;
+	line-height:12px
+}
+*/
+
+.small.date_pick.select { 
+	width:85px;
+}	
+
+.small.interval.select {
+	width:50px;
+}
+
+.small.day.select {
+	width:40px;
+}	
+
+.big.time.select {
+	width:80px;
+}
+
+.big.date_pick.select {
+	width:100px;
+}	
+
+.big.interval.select {
+	width:52px;
+	margin:0px 3px 0px -8px;
+}	
+
+.big.day.select {
+	width:54px;
+}	
+
+.small.select .button {
+	background-image:url("../../images/calamp/select_short_btn.png");
+	margin:0px -5px 0px 0px;
+	height:22px;
+}
+/*
+.small.time.select .button, 
+.small.date_pick.select .button,
+.small.interval.select .button,
+.small.day.select .button {
+	background-image:url("../../images/calamp/select_short_btn.png");
+	margin:0px -5px 0px 0px;
+	height:22px;
+}
+*/
+
+.small.select b {
+	font-size:12px;
+	font-weight:bold;
+	margin:4px 0px 0px 0px;
+	color:#4A5C70;
+	width:55px;
+	text-align:right;
+}
+
+/*
+.small.time.select b, 
+.small.date_pick.select b,
+.small.interval.select b,
+.small.day.select b {
+	font-size:12px;
+	font-weight:bold;
+	margin:4px 0px 0px 0px;
+	color:#4A5C70;
+	width:55px;
+	text-align:right;
+}
+*/
+
+.small.date_pick.select b {
+	width:65px;
+}	
+
+.small.interval.select b {
+	width:30px;
+}	
+
+.small.day.select b {
+	width:20px;
+}	
+
+.small.select .options{
+	top:22px;
+	width:71px;
+	left:3px;
+	color:#4A5C70;
+}
+
+.time.select .options, 
+.date_pick.select .options,
+.interval.select .options,
+.day.select .options {
+	height:150px;
+}
+
+
+.up.time.select .options  {
+	top:auto;
+	bottom:22px;
+}
+
+.date_pick.select .options {
+	width:176px;
+	height:auto;
+	border:none;
+}
+
+.interval.select .options {
+	width:85px;
+	height:135px;
+}	
+
+.day.select .options {
+	width:auto;
+	height:145px;
+}	
+
+.up.day.select .options {
+	top:auto;
+	bottom:22px;
+}	
+
+.day.select .options ul{
+	width:26px;
+}
+
+.date_pick.select .ui-datepicker {
+	width:170px;
+}	
+
+.date_pick .ui-datepicker-prev {
+	background-image:url("../../images/calamp/lt_arrow.png");
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+}
+
+.date_pick .ui-datepicker-next {
+	background-image:url("../../images/calamp/rt_arrow.png");
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+}	
+
+.date_pick .ui-datepicker-today a {
+	color:red;
+}
+
+.date_pick .ui-datepicker-current-day a {
+	background-image:url("../../images/calamp/date_selected.png");
+	color:white;
+}
+
+.big.time.select .options, 
+.big.date_pick.select .options,
+.big.interval.select .options,
+.big.day.select .options {
+	top:30px;
+}	
+
+.big.up.time.select .options, 
+.big.up.date_pick.select .options,
+.big.up.interval.select .options,
+.big.up.day.select .options {
+	top:auto;
+	bottom:29px;
+}	
+
+.time.select .options .meridian_holder {
+	width:71px;
+	text-align:center;
+}
+
+.time.select .options .meridian.selected {
+	color: #E85700;
+}
+
+.time.select .options label span,
+.interval.select .options label span {
+	margin:3px 1px 2px 1px;
+}	
+
+.time.select .options .sliders {
+	margin:5px;
+}
+
+.interval.select .options .sliders {
+	margin:5px 8px 5px 8px;
+}
+
+.time.select .options .sliders span,
+.interval.select .options .sliders span {
+	float:left;
+	margin-top:4px;
+}
+
+.time.select .options .sliders span.hour_labels,
+.interval.select .options .sliders span.hour_labels {
+	width:18px;
+	line-height:18px;
+	margin:7px -2px 3px 5px;
+}	
+
+.interval.select .options .sliders span.hour_labels {
+	margin:-1px 1px 3px 5px;
+	line-height:16.7px;
+}
+
+.time.select .options .sliders span.minute_labels,
+.interval.select .options .sliders span.minute_labels {
+	/*width:13px;*/
+	line-height:18.3px;
+	margin:-2px -2px 0px 2px;
+}
+
+.interval.select .options .sliders span.minute_labels {
+	margin:-2px 1px 0px 5px;
+}
+
+.time.select .options .ui-slider-handle,
+.interval.select .options .ui-slider-handle {
+	background-image:url("../../images/calamp/ui_slider_handle.png");
+	background-color:transparent;
+}
+
+
+
+/* remove, for test only */
+#monthly_time, #start_date, #end_date, #interval_time, #interval2_time, #day_month, #day_month2, #radius_select2 {
+	margin-left:20px;
+}	
+	
+/* end checkbox/radio styles css */
+
+
+#state_select ul{
+	height:100px;
+	overflow:auto;	
+}
+
+.pager{
+	background-color:#A9D0F5;
+	float:left;
+	height:25px;
+	width:100%;
+}
+
+.delete{
+	cursor:pointer;
+	background:url("../../images/calamp/delete.png") no-repeat scroll center center transparent;
+	height:16px;
+	width:16px;
+}
+
+.wr,
+.wr_half {
+	margin-bottom:7px;
+	zoom:1;
+}
+		
+.wr label,
+.wr_half label {
+	color:#6E6E6E;
+	display:block;
+	float:left;
+	font-size:11px;
+	height:30px;
+	line-height:30px;
+	margin-right:12px;
+}
+.hdr  {
+	color:#495973;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	margin:0 0 10px;
+	padding:10px 0;
+}
+
+.loading_overlay{
+	z-index: 10000000; 
+	display:none;
+	position:absolute;
+}
+
+.loading{
+	top:40%;
+	color:#FFFFFF;
+	height:100%;
+	position:fixed;
+	vertical-align:middle;
+	horizontal-align:top;
+	text-align:center;
+	width:100%;
+	z-index:10000000;	
+}
+.spinner_text{
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:22px;
+	font-size:12px;
+	font-weight:bold;
+	color:#336699;
+}
+.spinner_cancel{
+	background:url("../../images/calamp/spinner_cancel.gif") no-repeat scroll center center transparent;
+	height:24px;
+	width:78px;	
+	float:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#CCCCCC;
+	border:none;
+	cursor:hand;
+}
+
+.cancel{
+	background:url("../../images/calamp/cancel_button.png") no-repeat scroll center center transparent;
+	height:28px;
+	width:175px;	
+	float:left;
+}
+
+
+#rem_sel_devs {
+	margin-left:5px;
+	bottom:-15px;
+	font-size:11px;
+	line-height:14px;
+	color:#495973;
+	text-decoration:underline;
+	width:100%;
+	float:left;
+}
+
+span.error_star{
+    color: red; 
+    font-size: 12px; 
+    line-height: 30px;
+}
+
+.security_access{
+}
+
+.tabContent{
+	display:none;
+}
+
+.tabContent.active{
+	display:block;
+}
+
+.button_right_margin{
+    overflow:hidden;
+    padding:0 20px 0 0;
+}
+.mainTab,
+.mainTab3 {
+    cursor:pointer;
+    float:left;
+}
+
+.mainTab .tm .title,
+.mainTab3 .tm .title {
+    color:white;
+}
+
+.mainTab.active .tm .title,
+.mainTab3.active .tm .title {
+	color:#0671B7;
+}
+
+.mainTab.leftTab .tl{
+	background:url("../../images/calamp/search_dsl_lt.png") no-repeat scroll 0 0 transparent;
+}
+
+.mainTab.leftTab .tm{
+	background:url("../../images/calamp/titlebox_midd_dsl.png") repeat-x scroll 0 0 transparent;
+}
+
+.mainTab.leftTab .tr{
+	background:url("../../images/calamp/titlebox_right_dsl.png") no-repeat scroll 0 0 transparent;
+}
+
+.mainTab.leftTab.active .tl{
+    background:url("../../images/calamp/titlebox_left.png") no-repeat scroll 0 0 transparent;
+}
+
+.mainTab.leftTab.active .tm{
+    background:url("../../images/calamp/titlebox_midd.png") repeat-x scroll 0 0 transparent;
+}
+
+.mainTab.leftTab.active .tr{
+    background:url("../../images/calamp/titlebox_right.png") no-repeat scroll 0 0 transparent;
+}
+
+.mainTab.rightTab .tl,
+.mainTab3.thirdTab .tl {
+    background:url("../../images/calamp/titlebox_left_dsl.png") no-repeat scroll 0 0 transparent;
+}
+
+.mainTab.rightTab .tm,
+.mainTab3.thirdTab .tm {
+    background:url("../../images/calamp/titlebox_midd_dsl.png") repeat-x scroll 0 0 transparent;
+}
+
+.mainTab.rightTab .tr,
+.mainTab3.thirdTab .tr {
+    background:url("../../images/calamp/titlebox_right_dsl.png") no-repeat scroll 0 0 transparent;
+}
+
+.mainTab.rightTab.active .tl,
+.mainTab3.thirdTab.active .tl {
+    background:url("../../images/calamp/watch_selected_lt.png") no-repeat scroll 0 0 transparent;
+}
+
+.mainTab.rightTab.active .tm,
+.mainTab3.thirdTab.active .tm {
+    background:url("../../images/calamp/titlebox_midd.png") repeat-x scroll 0 0 transparent;
+}
+
+.mainTab.rightTab.active .tr,
+.mainTab3.thirdTab.active .tr {
+    background:url("../../images/calamp/titlebox_right.png") no-repeat scroll 0 0 transparent;
+}
+#manage_user_roles.table_list .role_name{
+	width:40%	
+}
+#manage_user_roles.table_list .role_desc{
+	width:60%;   
+}
+#manage_user_roles.table_list .role_edit{
+	width:10%;   
+}
+.role_display, .permission_display{
+	height:460px;
+	max-height:460px;
+	overflow:hidden;
+	overflow-x:hidden;
+	width:644px;	
+}
+.permission_display{
+    height:350px;
+    max-height:350px;
+}
+.role_display.scroller{
+	width:597px;
+}
+.permission_display.scroller{
+    width:584px;
+}
+.role_info, .permission_info{
+	float:left;
+	width:100%;
+	color:#6E6E6E;
+	font-size:14px;
+	margin:1px 0 0 4px;
+	background-image:url("../../images/calamp/dev_listing_back.png");
+    background-position:center bottom;
+}
+.permission_info{
+	width:90%;
+}
+.role_info.title, .permission_info.title{
+    color:#4A5C70;
+    font-family:tahoma;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:10px;
+    background-image:none;
+    background-position:bottom;
+    border-bottom:1px solid #4A5C70;
+}
+
+.role_check{
+	max-width:5%;
+	width:5%;
+	float:left;
+	margin:6px 0 0 3px;
+}
+
+.role_name{
+	max-width:30%;
+    width:30%;
+    float:left;
+    line-height:16px;
+    margin:7px 0 8px 0;
+}
+
+.role_desc{
+	max-width:60%;
+    width:60%;
+    float:right;
+    line-height:16px;
+    margin:7px 15px 8px 0;
+}
+.permission_check{
+	max-width:5%;
+    width:5%;
+    float:left;
+    margin:6px 0 0 3px;
+}
+
+.permission_desc{
+    max-width:90%;
+    width:90%;
+    float:right;
+    line-height:16px;
+    margin:7px 15px 8px 0;
+}
+#addressDirectionForm .get_directions .coming{
+	margin-bottom:5px;
+}
+
+#addressDirectionForm .get_directions .coming .labcheck{
+    margin-right:15px;
+}
+
+#addressDirectionForm .get_directions .coming .labcheck label{
+    margin-right:5px;
+}
+
+#addressDirectionForm .get_directions .coming .labcheck label.active{
+    font-weight:bold;
+}
+
+#addressDirectionForm .directions_input label{
+    float:left;
+    line-height:30px;
+    margin-right:5px;
+    font-weight:bold;
+}
+
+#addressDirectionForm .directions_input .inp_txt_inner input{
+    width:190px;
+}
+
+#displayDrivingResults{
+    max-height:450px; 
+    overflow:auto; 
+    background-color:#F3F7F8; 
+    background-image:url(../../images/calamp/msg_body.png); 
+    background-repeat:repeat-x;
+}
+#displayDrivingResults .point{
+	margin-right:5px;	
+}
+
+#displayDrivingResults .total_distance{
+   font-weight:bold;
+}
+
+#displayDrivingResults .route_display{
+	max-height:300px;
+}
+
+#displayDrivingResults .route_display tr{
+	cursor:pointer;
+}
+
+#displayDrivingResults .route_display tr.hover{
+    text-decoration:underline;
+    color:blue;
+}
+
+#displayDrivingResults .route_display .distance{
+    width:15%;
+}
+
+#secret_select .options ul{
+	width:222px;
+	height:auto;
+}
+.termsandcondtext,
+.cust_msg_text {
+	max-height:300px;
+	width:400px;
+}
+.termsandcondcont .print_link{
+	text-decoration:underline;
+}
+.termsandcondcont .termsandcondtitle{
+   font-weight:bold;
+}
+.termsandcondcont .termsandcondtitle .tctextcenter{
+   text-align:center;
+}
+.termsandcondcont .termsandcondtitle #air_id_list{
+   max-height:60px;
+   text-align:center;
+   font-size:12px;
+   width:400px;
+   margin-bottom:5px;
+}
+.termsandcondcont .termsandcondtitle .jScrollPaneContainer.jScrollPaneScrollable {
+   margin-bottom:5px;
+   border-bottom:thin solid black;
+}
+
+.user_info{
+    display: inline-block;
+    float: right;
+    margin-top: 22px;
+    /*width: 450px;*/
+}
+.user_info .hidden{
+   display:none;
+}
+
+.user_info #topmenu{
+    float: right;
+    width: 100%;
+}
+
+.user_info #open_notice_link{
+    float: left;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.user_info #open_notice_link a{
+   color:#0272B7;
+}
+.user_info #open_notice_link a:hover{
+   text-decoration:underline;
+}
+
+#accept_list, #reject_list{
+   max-height:45px;
+}
+#accept_devices p{
+   margin: 10px 0;
+}
+
+#notice_list_popup{
+	max-height:200px;
+}
+.notice_list, .accept_list, .reject_list{
+   list-style-type:none;
+   text-decoration:none;
+}
+.notice_list li{
+   background-image:url("../../images/calamp/rt_arrow_li.png");
+   background-position: 0px 4px; 
+   background-repeat: no-repeat;
+   padding-left: 15px; 
+   background-color:transparent;
+}
+#folder_list_inner{
+   float:left;
+   max-height:450px;
+   overflow-x:hidden;
+   overflow-y:auto;
+   width:99%;
+}
+.fixed_centered_modal{
+	position:fixed;
+	width:100%; 
+	z-index: 9999;
+}
+.fixed_centered_modal.normal{
+   top:40%;
+}
+.fixed_centered_modal.tc{
+   top:25%;
+}
+.pager_block{
+	display:block;
+	margin-left:30%;
+}
+#privacy_page ul.list{
+	list-style-type:square;
+	margin:10px 0 10px 15px;
+}
+
+.build_version.l{
+	margin-left: -3px;
+}
+.build_version.l a{
+	color:#6E6E6E;
+}
+#reports_display{
+   margin-bottom:110px;
+}
+#reports_list .select_checkbox{
+	padding:5px 5px 0;
+	width:3%;
+	max-width:3%;
+	min-width:3%;
+}
+#reports_list .report_name{
+	max-width:30%;
+	min-width:30%;
+	width:30%;
+}
+#reports_list .objects{
+   max-width:45%;
+   min-width:45%;
+   width:45%;
+}
+#reports_list .run_row{
+	margin:0 10px 0 3px
+}
+#reports_display .wr.report_name_block{
+   text-align:left;
+}
+#reports_display .wr.report_name_block label {
+	font-size:12px;
+	vertical-align:top;
+	width: 110px;
+}
+#reports_display .wr.report_name_block .inp_txt_wr {
+   width:200px
+}
+#reports_display .wr.report_name_block .error_star {
+	margin-left:5px;
+}
+
+#reports_display .wr.report_name_block td {
+    vertical-align: middle;
+    padding: 2px;
+}
+
+#reports_display #report_name{
+	width:170px;
+}
+
+
+#reports_display .tareaboxr {
+    background: url("../../images/calamp/textareatrans.gif") no-repeat scroll left top transparent;
+    height: 81px;
+    margin: 0 5px 0 0;
+    overflow: hidden;
+    padding: 0 0 0 4px;
+    width: 380px;
+    float: left;
+}
+
+#reports_display .tareabox_inner {
+    background: url("../../images/calamp/textareatrans.gif") no-repeat scroll right top transparent;
+    margin: 0px;
+    padding: 4px 12px 4px 4px;
+}
+
+#reports_display .tarea{
+	width: 362px;
+	height: 71px;
+	overflow: auto;
+    font-family: Arial,Helvetica sans-serif;
+}
+
+#reports_display .report_name_block #submit, #reports_display .report_name_block #edit_report{
+	float:none;
+	margin-left:25px;
+	margin-top:0px;
+}
+.report_table_block, .run_report_button_block{
+	margin-top:20px;
+} 
+.report_table_block .rules{
+   display:inline-block;
+   vertical-align:top;
+}
+.rules #cmp_value{
+   width:90px;
+}
+#reports_display .btn_rt{
+    background-image:url("../../images/calamp/sel_an_rt.png");
+    background-position:right center;
+    background-repeat:no-repeat;
+    float:none;
+    height:36px;
+    width:60px;
+}
+#reports_display  .btn_rt span{
+   background-image:url("../../images/calamp/rt_arrow_box_lt.png");
+   background-position:right center;
+   background-repeat:no-repeat;
+   color:white;
+   display:inline-block;
+   margin:10px 0 0;
+   text-align:center;
+   width:135px;
+}
+#reports_display .btn_rt.export_report{
+	float:left;
+}
+#reports_display .btn_rt.show_devices{
+   float:right;
+}
+#string_cond_select, #number_cond_select{
+   width:70px;
+}
+#string_cond_select b, #number_cond_select b{
+   width:35px;
+}
+.string_cond_select.select div, .number_cond_select.select div, .column_list.select div, .date_interval_select.select div{
+   width:97%;
+}
+.number_cond_select.select ul, .string_cond_select.select ul, .column_list.select ul, .date_interval_select.select ul{
+   width:100%;
+}	
+#operator_select{
+   width:55px;
+}
+#operator_select b{
+   width:20px;
+}
+#column_list{
+   width:130px;
+}
+#column_list.faded{
+   opacity:0.7;
+}
+#column_list b{
+   width:95px;
+}
+.report_table_body .rules .op_block{
+   float:left;
+   display:block;
+   width:60px;
+}
+.operator_select.select ul{
+   width:100%;
+}
+.date_pick.select .now_block{
+   margin: -3px 0pt 0pt; 
+   padding: 0pt; 
+   height: 20px;
+}
+.date_pick.select .now_block .checkbox{
+   margin-left: 52px;
+}
+.date_pick.select .now_block label{
+   display: inline; 
+   float: none;
+}
+.date_pick.select .datepicking{
+   border:1px solid #BDBDBD;
+   width:187px
+}
+.report_date.date_pick.select .datepicking .ui-widget-content{
+   border:0 none;
+}
+.date_pick.select .options.date_pick{
+   display:block;
+   position:absolute;
+   width:190px;
+   line-height:12px;
+}
+.date_pick.select .ui-datepicker{
+   width:100%;
+}
+.plus_minus_select ul{
+   width:94%
+}
+.upper-left-grey-round-corner, .upper-right-grey-round-corner, .lower-left-grey-round-corner, .lower-right-grey-round-corner{
+   height:7px;
+   width:7px;
+}
+.upper-left-grey-round-corner{
+   background:url("../../images/calamp/round_solid_left_top.gif") no-repeat scroll left top transparent;
+}
+.upper-right-grey-round-corner{
+   background:url("../../images/calamp/round_solid_right_top.gif") no-repeat scroll left top transparent;
+}
+.lower-left-grey-round-corner{
+   background:url("../../images/calamp/round_solid_left_bottom.gif") no-repeat scroll left top transparent;
+}
+.lower-right-grey-round-corner{
+   background:url("../../images/calamp/round_solid_right_bottom.gif") no-repeat scroll left top transparent;
+}
+.report_table_body .rules #date_interval_value.textl{
+   width:45px;
+}
+.report_objects_title, .report_objects_list .add_report_options{
+   background-color:#4A5C70;
+}
+.fields_block{
+	background-color:#5C5C5C;
+	margin:0px;
+}
+.report_objects, .fields_block{
+   margin-bottom:10px;
+   color:white;
+   font-size:14px;
+   background-color: #4A5C70;
+}
+.report_objects_title, .field_title{
+   font-weight:bold;
+   padding-left:10px;
+   padding-top:10px;
+   padding-bottom:5px;
+}
+.report_objects_list, .field_holder, .add_report_options{
+   padding-left:10px;
+   padding-bottom:10px;
+}
+
+.report_objects .select span.button {
+    background-color: #4A5C70;
+}
+
+.object_block, .field_block{
+   display:inline-block;
+   margin-left:25px;
+}
+.object_block label, .field_block label{
+   display:inline-block;
+   max-width:140px;
+   vertical-align:text-top;
+   line-height:16px;
+}
+.fields_block{
+	margin-bottom:0;
+}
+.field_holder{
+	padding-bottom:5px;
+}
+.report_filters_block{
+   margin-bottom:10px;
+}
+.report_data_block{
+	border:2px solid #5C5C5C;
+	margin-top:10px; 
+}
+.filter_title{
+	background-color:grey;
+	padding:5px 0 5px 10px;
+	margin:0;
+	font-size:14px;
+	font-weight:bold;
+	color:white;
+}
+.rule_block{
+    color:#6E6E6E;
+    font-size:12px;
+    padding:5px 0;
+}
+.report_date.now_checkbox.date_pick.select{
+   max-width:112px;
+   width:112px;
+}
+.date_interval_select.select{
+   max-width:80px;
+}
+.plus_minus_select.select{
+   max-width:50px;
+}
+.rule_number_block, .column_block, .compare_block, .value_block, .operator_block{
+   display:inline-block;
+   padding-left:15px;
+}
+.column_block{
+   width:130px;
+   max-width:130px;
+   vertical-align:top;
+   line-height:30px;
+}
+.rule_number_block{
+	color:#6E6E6E;
+	font-size:12px;
+	padding-left:40px;
+	width:60px;
+	vertical-align:top;
+	line-height:30px;
+}
+.compare_block{
+	max-width:80px;
+	width:80px;
+}
+.value_block{
+	width:375px;
+	max-width:385px;
+	vertical-align:top;
+	line-height:30px;
+}
+.value_block .history_type_label{
+   margin-right:5px;
+}
+.interval_block{
+	margin-left:5px;
+}
+.interval_block #date_interval_value{
+	width:50px
+}
+.value_block #report_date, .value_block #plus_minus_select{
+   margin-right:5px;
+}
+.generated_report{
+   width:100%;
+   margin-bottom:20px;
+}
+.generated_report_block .hdr{
+	text-align:center;
+	font-size:14px;
+}
+.generated_report .table_list{
+   width:100%;
+   float:none;
+   overflow:auto;
+}
+#reports_display .generated_report table{
+   table-layout:auto;
+}
+.generated_report .table_list table th, .generated_report .table_list table td{
+	line-height:normal;
+	padding:5px;
+}
+#sched_comm_page.report_schedules .wr{
+   width:100%;
+}
+#sched_comm_page.report_schedules #daily_time{
+   float:left;
+}
+#sched_comm_page.report_schedules #stop_time, 
+#sched_comm_page.report_schedules #start_time{
+   width:130px
+}
+#sched_comm_page.report_schedules .act_type{
+   clear:none;
+}
+#sched_comm_page.report_schedules .act_type{
+   padding:0;
+}
+#sched_comm_page.report_schedules .alert_footer{
+   margin-top:0;
+}
+#sched_comm_page.report_schedules .updatesave{
+   margin:0;
+}
+#sched_comm_page.report_schedules .start_end_date_block{
+   margin:0;
+   width:205px;
+}
+#sched_comm_page.report_schedules .start_end_date_block .act_type_hdr{
+   width:100%;
+}
+#sched_comm_page.report_schedules .start_end_date_block .date_pick.select,
+#sched_comm_page.report_schedules #daily_time{
+   margin-right:0;
+}
+#sched_comm_page.report_schedules .start_end_date_block .date_pick.select .options{
+   left:0;
+}
+#sched_comm_page.report_schedules #daily_time{
+   /*	margin-left:-7px;	*/
+}
+#sched_comm_page.report_schedules #stop_date_block{
+   display:inline-block;
+   margin-top:10px;
+}
+#sched_comm_page.report_schedules #sched_comm_sel_act{
+   width:435px;
+}
+#sched_comm_page.report_schedules .inp_txt_wr{
+   margin-bottom:5px;
+}
+#sched_comm_page.report_schedules #everyweeklabel{
+   margin-right:2px;
+}
+#reports_schedule_list .report_schedule_error{
+   color:red;
+   font-size:11px;
+}
+#reports_schedule_list .report_name{
+	width:30%;
+	min-width:30%;
+	max-width:30%;
+}
+#reports_schedule_list .start{
+	width:13%;
+	min-width:13%;
+	max-width:13%;
+}
+#reports_schedule_list .end{
+	width:13%;
+	min-width:13%;
+	max-width:13%;
+}
+#reports_schedule_list .type{
+	width:20%;
+	min-width:20%;
+	max-width:20%;
+}
+.showConfirmationMessage #never_message{
+   margin-left:10px;
+}
+.ui-dialog.session{	
+	background-image:url(../../images/calamp/session_pop_fade.png);
+	background-repeat:repeat-x;
+	float:left;
+	display:none;
+	background-color:#396898;
+}
+.ui-dialog.session .ui-dialog-content.ui-widget-content{
+	float:left;
+	display:none;
+	background-color:transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:normal;
+	color:#FFFFFF;
+	text-align:left;
+	vertical-align:middle;
+}
+
+.session_pop{
+	color:#c8c8c8;
+	display:block;
+	font-size:12px;
+	font-weight:normal;
+	line-height:14px;
+	margin:6px 5px 5px 4px;
+}
+
+.pop_result{	
+	color:white;	
+	font-size:12px;
+	font-weight:bold;
+	line-height:14px;	
+	}
+.pop_table{		
+	font-size:10px;
+	font-weight:normal;		
+	}
+.pop_header{	
+	font-size:10px;
+	font-weight:bold;	
+	}
+.ui-dialog.session .table_list_conn .jScrollPaneContainer{
+	background-color:#EBEBEB;
+}
+.ui-dialog.session .table_list_conn .jScrollPaneContainer.jScrollPaneScrollable .jScrollPaneTrack{	
+	background-image:url("../../images/calamp/popup_scrbg.gif");
+	background-color:#EBEBEB;
+	
+}
+ table.center {
+	 margin-left:auto; 
+	 margin-right:auto; 
+	 width:70%;
+ }
+ #review_page_block #country_select b{
+   width:130px;
+ }
+#review_page_block #shipping_info_block .label, .review_state_country_block label{
+   color: #6E6E6E;
+   display: inline-block;
+   float: left;
+   font-size: 11px;
+   height: 30px;
+   line-height: 30px;
+   margin-right: 13px;
+   width:97px;
+ }
+#review_page_block .subaccount_ship_label
+{
+   color: #6E6E6E;
+   display: inline-block;
+   float: left;
+   font-size: 11px;
+   height: 30px;
+   margin-right: 13px;
+   width:97px;
+   line-height:15px;
+}
+#review_page_block .subaccount_ship_text
+{
+   color: #6E6E6E;
+   display: inline-block;
+   font-size: 11px;
+   height: 30px;
+   line-height:15px;
+   margin-left:5px;
+   margin-right:5px;
+   width:350px;
+}
+#review_page_block #subaccount_shipping_div{
+	display:none;
+}
+#review_page_block .review_state_country_block{
+   float:left;
+   width:100%;
+   margin-bottom:5px;
+}
+#review_page_block .review_state_country_block .right label{
+   width:96px;
+}
+#review_page_block #cc, #review_page_block #cod, #review_page_block #invoice{
+   margin-left:5px;
+}
+
+#review_page_block #shipping_select,
+#review_page_block #state_select,
+#review_page_block #country_select,
+#review_page_block #subaccount_shipping_select {
+   width: 165px;
+   margin-right: 5px;
+}
+#review_page_block #shipping_select b,
+#review_page_block #subaccount_shipping_select b {
+   width: 125px;
+}
+#review_page_block #shipping_select div.options,
+#review_page_block #country_select div.options,
+#review_page_block #subaccount_shipping_select div.options {
+   min-width: 165px;
+}
+
+table.to_transfer {
+	 margin-left:auto; 
+	 margin-right:auto; 
+	 border: 1px solid #000000;
+}
+table.to_transfer td, table.to_transfer th {
+	border-bottom: 1px solid #000000;
+ 	border-right: 1px solid #000000;
+    padding: 0 0 0 9px;
+}
+table.to_transfer th {
+	font-weight: bold;
+}
+.transfer_id_text{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+table.rejected_table td, table.pending_table td{
+	padding-left: 9px;
+	padding-top: 5px;
+}
+table.rejected_table div{
+  border: 1px solid;
+  width: 375px;
+  padding: 3px;
+  margin: auto;
+  min-height: 45px;
+}
+
+/* Style for the labels in the Change Password popup */
+
+.pass_restrictions p {
+	margin: 0px;
+}
+
+.new_pass label {
+    display:block;
+    float:left;
+    height:30px;
+    width:160px;
+    line-height:30px;
+    margin-right:12px;
+    margin-left:50px;
+}
+
+.password_errors {
+    margin-left: 10px;
+ }
+ 
+ /* Styles for the new Location History fields drop down */
+ 
+ b.loc_history_dropdown {
+    width:107px;
+} 
+
+.select b.loc_history_dropdown {
+    width:131px;
+}
+
+.select b, .select.large b, .select b.loc_history_dropdown {
+    float: left;
+    display: block;
+    color: #544E4F;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: normal;
+    margin: 7px 4px 0px 8px;
+    overflow: hidden;
+    height: 16px;
+    text-indent: 1px;
+}
+
+#manage_reports .wr .textl{
+	width: 255px;	
+}
+
+#manage_reports .tareabox textarea {
+	width: 386px;
+	height: 81px;
+    background: url("../../images/calamp/textareatrans.gif") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    font-family: Arial,Helvetica sans-serif;
+    margin:0px 4px 4px 0px;
+}
+
+.report_options{
+	margin-top: 15px;
+}
+
+.report_options .wr label{
+	width: 115px;
+}
+
+
+
+/*GEOZONE STYLE*/
+
+#geozone_info{
+	float: right;
+    width: 560px;
+}
+
+.add_geozone{
+	float:left;
+}
+.add_geozone .wr{
+	float:left;
+}
+
+.goezone_form .wr label{
+	margin-right: 5px;
+}
+
+#geozone_content .geo_setshape_row span.text, #geo_setportal_row span.text  {
+	float:left;
+	margin:9px 15px 0px 0px;
+	color:#6c6c6c;
+	font-size: 11px;
+}	
+
+#geozone_options span.text {
+	float:left;
+	margin: 5px 5px 15px 0;
+	color:#6c6c6c;
+	font-size: 11px;
+}	
+#geozone_content .geo_setshape_row span.radio, #geo_setportal_row span.radio {
+	margin:7px 3px 0px 0px;
+}
+
+#geozone_info .required {
+    color: red;
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#geoMap,
+#cac_man_acc_map {
+	float: left;
+	position: relative;
+	display: block;
+}
+
+.geozone_footer{
+	width: 735px;
+	float: left;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+#geozones_list .geozone_name, #geozones_list .geozone_device {
+    max-width: 40%;
+    min-width: 40%;
+    width: 40%;
+}
+
+.geoinfo{
+	width: 475px;
+	float: left;
+	color: #6E6E6E;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.add_geozone #carrier_select, .add_geozone #carrier_select ul, .add_geozone #time_zone_select, .add_geozone #time_zone_select ul{
+    margin-right: 5px;
+    width: 160px;
+}
+
+.add_geozone #lang_select, .add_geozone #lang_select ul, .add_geozone #unit_select, .add_geozone #unit_select ul {
+    margin-right: 5px;
+    width: 90px;
+}
+
+.geo_alert_type {
+    width: 112px;
+}
+
+.zone_info{
+	font-size: 11px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: 20px;
+}
+
+.zone_info input{
+    color: #544E4F;
+    font-size: 12px;
+}
+
+.zone_info span{
+    display: block;
+    float: left;
+    margin-top: 2px;
+    width: 100px;
+}
+
+#geozone_content .wr .textm {
+    width: 180px;
+}
+
+.zone_info .container{
+	height:30px;
+}
+
+.ero .ero-previewArea div.firstChild {
+    height: 130px;
+     width: 225px;
+}
+
+.geo_search {
+    background-image: url("../../images/calamp/enhanced_search_button.png");
+    float: left;
+    height: 36px;
+    width: 120px;
+}
+
+#geo_search_row{
+	margin-top: 7px;
+	width: 650px;	
+}
+
+.draw_geo{
+	margin-top:0px;
+}
+
+/*
+ *  Styles for Time Zone dropdown in the Add/Edit Reports view
+ */
+
+.add_report_options label {
+	margin-top: 8px;
+}
+
+#timezone_block {
+	vertical-align: middle;
+    width: 350px;
+}
+
+#timezone_block label {
+	float: left;
+    max-width: 180px;
+    width: 180px;
+}
+
+.object_block #time_zone_select {
+    float: right;
+    margin-left: 5px;
+    width: 165px;
+}
+
+.object_block #time_zone_select .options ul {
+    min-width: 140px;
+    width: 140px;
+}
+
+.object_block #time_zone_select .options ul li {
+    width: 165px;
+    min-width: 135px;
+}
+
+.check_all_devices{
+	float: left;
+	width: 250px;
+    margin: 5px 0 0 5px;
+}
+
+.check_all_devices span{
+	color: #0072B6;
+    float: left;
+    margin: 10px 0 0 -4px;
+    text-decoration: underline;
+}
+
+.check_all_devices .checkbox {
+    margin: 8px;
+}
+
+#geozone_content #device_select a.command_delete_failed{
+	color: #FF0000;
+}
+
+#geozone_content #device_select a.command_set_failed{
+	color: #00CC00;
+}
+
+#geozone_content #device_select{
+	height: 123px;
+}
+
+#geozone_content #device_select ul{
+    height: 123px;
+}
+
+
+/* New checkbox styles  */
+
+.new_checkbox {
+    height: 20px;
+    float: left;
+    margin: 0 0 3px;
+    padding: 0 0 0 24px;
+    background: url("../../images/calamp/checkbox.png") no-repeat center 0;
+    cursor: default;
+    text-align:left;
+    width: 0px !important;
+}
+.new_checkbox input {
+    display: none;
+}
+.new_checkbox input.show {
+    display: inline;
+}
+.new_checkbox .selected {
+    background-position: 0 -52px;
+}
+
+
+/* Heatmap styles  */
+.heatmap{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.invalid_chart{
+    height: 25px;
+    text-align: center;
+}
+
+.colors_legend, .icons_legend{
+	color: #3E576F;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+.colors_legend td{
+	height: 15px;
+}
+
+.colors_legend td.color{
+	width: 60px;
+}
+
+.colors_legend table, .icons_legend table{
+	border-collapse: separate;
+	border-spacing: 2px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.icons_legend table td{
+	text-align: center;
+	vertical-align: middle;
+}	
+
+.circle_10{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+    height: 10px;
+    width: 10px;
+    opacity: 0.7; 
+}
+
+.circle_15{
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+    height: 15px;
+    width: 15px;
+    opacity: 0.7;  
+}
+
+.circle_20{
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius:20px;
+    height: 20px;
+    width: 20px;
+    opacity: 0.7;  
+}
+
+.circle_25{
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	border-radius:25px;
+    height: 25px;
+    width: 25px;
+    opacity: 0.7;  
+}
+
+.circle_30{
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	border-radius:30px;
+    height: 30px;
+    width: 30px;
+    opacity: 0.7;  
+} 
+
+
+
+
+
+
+
+.dropdown {
+	color: #555;
+	margin: 3px -22px 0 0;
+	width: 143px;
+	/*position: ;*/
+	height: 17px;
+	text-align:left;
+}
+.submenu {
+	background: #fff;
+	/*position: absolute;*/
+	top: -12px;
+	left: -20px;
+	z-index: 100;
+	width: 135px;
+	display: none;
+	margin-left: 10px;
+	padding: 40px 0 5px;
+	border-radius: 6px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+.dropdown li a {
+	color: #555555;
+	display: block;
+	font-family: arial;
+	font-weight: bold;
+	padding: 6px 15px;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+.dropdown li a:hover {
+	background:#155FB0;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.account {
+	font-size: 11px;
+	line-height: 16px;
+	color: #555;
+	/*position: absolute;*/
+	z-index: 110;
+	display: block;
+	padding: 11px 0 0 20px;
+	height: 28px;
+	width: 121px;
+	margin: -11px 0 0 -10px;
+	text-decoration: none;
+	background: url(icons/arrow.png) 116px 17px no-repeat;
+	cursor:pointer;
+}
+.root {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	font-size: 11px;
+	padding: 11px 0 0 0px;
+	border-top:1px solid #dedede;
+}
+
+/*
+ * Row highlighting for datatables
+ */
+
+
+
+
+
+
+
+
+tbody tr.even:hover, tbody tr.even td.highlighted {
+    background-color: #ECFFB3;
+}
+
+tbody tr.odd:hover, tbody tr.odd td.highlighted {
+    background-color: #E6FF99;
+}
+
+tr.even:hover {
+    background-color: #ECFFB3;
+}
+
+tr.even:hover td.sorting_1 {
+    background-color: #DDFF75;
+}
+
+tr.even:hover td.sorting_2 {
+    background-color: #E7FF9E;
+}
+
+tr.even:hover td.sorting_3 {
+    background-color: #E2FF89;
+}
+
+tr.odd:hover {
+    background-color: #E6FF99;
+}
+
+tr.odd:hover td.sorting_1 {
+    background-color: #D6FF5C;
+}
+
+tr.odd:hover td.sorting_2 {
+    background-color: #E0FF84;
+}
+
+tr.odd:hover td.sorting_3 {
+    background-color: #DBFF70;
+}
+
+.img-logo {
+	 margin-top: 5px;
+	 height: 25px;
+}
+
+.div-logo {
+	float:left;
+}
